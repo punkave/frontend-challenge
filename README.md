@@ -47,3 +47,7 @@ Fork this project on github. When you're finished, send us the URL of your publi
 * Update in real time.
 * Geolocation. (Hint: you must use https on your server, which takes some doing.)
 * Anything else you think is cool, relevant, and consistent with the other requirements.
+
+## Partial credit
+
+We are most interested in your frontend development skills. If you have trouble with the APIs, focus first on building the application that would display that data, using mocked-up data at first, and add in real queries to the APIs at the end.
