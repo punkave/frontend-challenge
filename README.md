@@ -4,7 +4,9 @@
 
 The [Indego GeoJSON station status API](https://www.rideindego.com/stations/json/) provides a realtime snapshot of the number of bikes available, number of open docks available (not currently containing a bike), and total number of docks at every station. This API is free and requires no API key.
 
-The [Open Weather Map API](https://openweathermap.org/current#name) provides a realtime snapshot of the current weather in a given city. Since Philadelphia is a small geographical area it is sufficient to obtain the weather for a geographical location central to Philadelphia. This API has a free plan, you will need to sign up for an API key.
+> Hint: the API responds with a JSON object. You may find it easier to work out how to work with the data if you visit the API manually first and feed its output through a [JSON pretty printer](http://jsonprettyprint.com/) or similar tool. Your actual app should access the API on its own.
+
+The [Open Weather Map API](https://openweathermap.org/current#name) provides a realtime snapshot of the current weather in a given city. Since Philadelphia is a small geographical area it is sufficient to obtain the weather for a geographical location central to Philadelphia. This API has a free plan, you will need to sign up for an API key. This API is well documented.
 
 Using HTML, CSS, and one of the following:
 
@@ -15,8 +17,8 @@ Using HTML, CSS, and one of the following:
 
 Create a single-page web application that:
 
-* Asks the user for an address (geolocation is extra credit, as it requires `https`)
-* Displays the location of at least three nearby bike stations on a map
+* Asks the user for an address (you may use an input field)
+* Displays the location of at least three nearby bike stations on a map (you may integrate Google Maps, Open Street Map, or another tool of your choice)
 * Visually indicates the number of open docks and available bikes at each bike station
 * Visually indicates the weather, and
 * Displays a warning if the weather seems dangerous.
