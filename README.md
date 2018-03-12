@@ -40,6 +40,8 @@ Your work will be evaluated primarily on:
 
 Fork this project on github. When you're finished, send us the URL of your public repository and the URL of your running instance of the app. *Consider using `.gitignore` to avoid putting any deployment credentials or API key in your public repository.*
 
+**If you prefer, you may submit your code to us privately by email,** rather than using a fork in your public github.
+
 ## Extra credit
 
 * Ask the user whether they are looking for a bike, or a place to park one.
