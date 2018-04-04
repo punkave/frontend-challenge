@@ -48,6 +48,7 @@ Fork this project on github. When you're finished, send us the URL of your publi
 * Use color or some other means to emphasize when there are plenty of bikes/racks, or very few.
 * Update in real time.
 * Geolocation. (Hint: you must use https on your server, which takes some doing.)
+* Use Vue or React. If you choose to, please do this in a separate git branch after you complete it with vanilla JS and jQuery. It's important to us to see how you'd structure the project without build tools that typically accompany such frameworks.
 * Anything else you think is cool, relevant, and consistent with the other requirements.
 
 ## If you don't finish
