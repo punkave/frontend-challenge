@@ -27,10 +27,6 @@ The [Indego GeoJSON station status API](https://www.rideindego.com/stations/json
 
 The [Open Weather Map API](https://openweathermap.org/current#name) provides a realtime snapshot of the current weather in a given city. Since Philadelphia is a small geographical area it is sufficient to obtain the weather for a geographical location central to Philadelphia. This API has a free plan, you will need to sign up for an API key. This API is well documented.
 
-## Hosting details
-
-You'll need to make your app available on a server that we can communicate with from the office, not just on your laptop. Although this is not a system administration job, we're interested in seeing that you are comfortable with the fundamentals of making something live on a webserver. (Hint: Heroku, Now, Digital Ocean and Linode are all options to consider.)
-
 ## Criteria
 
 Your work will be evaluated primarily on:
@@ -42,12 +38,14 @@ Your work will be evaluated primarily on:
 
 ## How to submit your work
 
-Fork this project on github. When you're finished, send us the URL of your public repository and the URL of your running instance of the app. *Consider using `.gitignore` to avoid putting any deployment credentials or API key in your public repository.*
+Fork this project on github. When you're finished, send us the URL of your public repository. You should also include clear instructions to run the app and/or the URL of your running instance of the app (if you're hosting it). *Consider using `.gitignore` to avoid putting any deployment credentials or API key in your public repository.*
 
 **If you prefer, you may submit your code to us privately by email,** rather than using a fork in your public github.
 
 ## Extra credit
 
+* Host it:
+  * Make your app available on a server that we can communicate with from the office, not just running it locally. Although this is not a system administration job, we're interested in seeing that you are comfortable with the fundamentals of making something live on a webserver. (Hint: Heroku, Now, Digital Ocean and Linode are all options to consider.)
 * Ask the user whether they are looking for a bike, or a place to park one.
 * Use color or some other means to emphasize when there are plenty of bikes/racks, or very few.
 * Update in real time.
