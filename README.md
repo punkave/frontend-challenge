@@ -4,8 +4,6 @@ Using HTML, CSS, and one of the following:
 
 * Vanilla JavaScript
 * jQuery
-* React
-* Vue
 
 Create a single-page website/web application that displays bike share and weather information for people in Philadelphia using [Indego](https://www.rideindego.com) and [Open Weather Map](https://openweathermap.org/current#name) APIs.
 
