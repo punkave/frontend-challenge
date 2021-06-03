@@ -42,8 +42,7 @@ Fork this project on github. When you're finished, send us the URL of your publi
 
 ## Extra credit
 
-* Host it:
-  * Make your app available on the web instead of hosting it locally! Although systems administration isn't a huge part of this position, we're interested in learning about your comfort level with the fundamentals of making something publicly available. (Hint: GitHub Pages or Netlify might be options to consider.)
+* Make your app available on the web instead of hosting it locally! Although systems administration isn't a huge part of this position, we're interested in learning about your comfort level with the fundamentals of making something publicly available. (Hint: GitHub Pages or Netlify might be options to consider.)
 * Ask the user whether they are looking for a bike, or a place to park one.
 * Use color or some other means to emphasize when there are plenty of bikes/racks, or very few.
 * Update in real time.
